@@ -1,0 +1,16 @@
+* { font-family: monospace; box-sizing: border-box; color: #EDF1F0 }
+
+body { margin: 2em 0; background: #0c0d1a }
+
+body > span { display: block; text-align: center }
+span.loading { display: none }
+h1 > a { display: block; text-align: center }
+
+ul { padding: 0 }
+li { padding: 1em 1.5em; margin-bottom: .25em; list-style: none; background: #1e203e }
+li .user { display: flex; align-items: center; gap: .5em }
+li .user a { display: inline-flex; margin-bottom: .25em; align-items: center; gap: .5em; color: #ff0098 }
+li .user a > span { color: inherit }
+li .user a > img { width: 1.5em; height: 1.5em; border-radius: .25em }
+li .user > span { font-size: .75em; opacity: .5 }
+li .content { word-break: break-word }
